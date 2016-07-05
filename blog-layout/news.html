@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>&lt;/&gt;DevStudy.net - Blog layout demo</title>
+	<link href="static/css/bootstrap.css" rel="stylesheet">
+	<link href="static/css/bootstrap-theme.css" rel="stylesheet">
+	<link href="static/css/font-awesome.css" rel="stylesheet">
+	<link href="static/css/app.css" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#blogNavBar" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<h1><a class="navbar-brand" href="#">Blog demo</a></h1>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="blogNavBar">
+					<form action="news.html" method="get" class="navbar-form navbar-right" role="search">
+						<div class="form-group">
+							<input id="search" name="query" type="text" class="form-control" placeholder="Search query">
+						</div>
+						<button type="submit" class="btn btn-default">Find</button>
+					</form>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<div class="container">
+		<nav class="hidden-print">
+			<ol class="breadcrumb">
+				<li><a href="news.html">News</a></li>
+				<li class="active">Bibendum</li>
+			</ol>
+		</nav>
+		<div class="row">
+			<aside class="col-md-3 col-md-push-9 col-lg-2 col-lg-push-10">
+				<div class="visible-xs-block visible-sm-block sm-category-container">
+					<a data-toggle="collapse" data-target="#categories">Categories <span class="caret"></span></a>
+				</div>
+				<div id="categories" class="panel panel-default collapse" data-spy="affix" data-offset-top="60" data-offset-bottom="400">
+					<div class="panel-heading hidden-sm hidden-xs">Categories</div>
+					<div class="list-group">
+						<a class="list-group-item" href="news.html"> <span class="badge">78</span> Vehicula</a>
+						<a class="list-group-item" href="news.html"> <span class="badge">75</span> Ornare</a>
+						<a class="list-group-item" href="news.html"> <span class="badge">110</span> Blandit</a>
+						<a class="list-group-item" href="news.html"> <span class="badge">113</span> Lacinia</a>
+						<a class="list-group-item" href="news.html"> <span class="badge">216</span> Dictumst</a>
+						<a class="list-group-item" href="news.html"> <span class="badge">95</span> Tempus</a>
+						<a class="list-group-item" href="news.html"> <span class="badge">211</span> Feugiat</a>
+					</div>
+				</div>
+			</aside>
+			<main class="col-md-9 col-md-pull-3 col-lg-10 col-lg-pull-2">
+				<article class="panel panel-default">
+					<div class="thumbnail"> 
+						<a href="article.html">
+							<img alt="" src="media/01f94926-6174-4dd3-8830-eb4ca08b0404.jpg">
+						</a>
+					</div>
+					<div class="panel-body">
+                		<h3><a href="article.html">Aenean ut eros et nisl sagittis vestibulum.</a></h3>
+                		<ul class="nav navbar-nav">
+			              <li><a href="news.html"><i class="fa fa-folder" aria-hidden="true"></i> Vehicula</a></li>
+			              <li><a href="#" class="no-link"><i class="fa fa-comments" aria-hidden="true"></i> 8 comments</a></li>
+			              <li><a href="#" class="no-link"><i class="fa fa-clock-o" aria-hidden="true"></i> Saturday, July 4, 2015 11:16 PM</a></li>
+			              <li><a href="#" class="no-link"><i class="fa fa-eye" aria-hidden="true"></i> Hits: 8,785</a></li>
+			            </ul>
+			            
+			            <div class="desc">
+			              Donec elit libero, sodales nec, volutpat a, suscipit non, turpis. Donec elit libero, sodales nec, volutpat a, suscipit non, turpis. Donec elit libero, sodales nec, volutpat a, suscipit non, turpis. Donec elit libero, sodales nec, volutpat a, susci
+			            </div>
+              		</div>
+				</article>
+				<article class="panel panel-default">
+					<div class="thumbnail"> 
+						<a href="article.html">
+							<img alt="" src="media/01f94926-6174-4dd3-8830-eb4ca08b0404.jpg">
+						</a>
+					</div>
+					<div class="panel-body">
+                		<h3><a href="article.html">Aenean ut eros et nisl sagittis vestibulum.</a></h3>
+                		<ul class="nav navbar-nav">
+			              <li><a href="news.html"><i class="fa fa-folder" aria-hidden="true"></i> Vehicula</a></li>
+			              <li><a href="#" class="no-link"><i class="fa fa-comments" aria-hidden="true"></i> 8 comments</a></li>
+			              <li><a href="#" class="no-link"><i class="fa fa-clock-o" aria-hidden="true"></i> Saturday, July 4, 2015 11:16 PM</a></li>
+			              <li><a href="#" class="no-link"><i class="fa fa-eye" aria-hidden="true"></i> Hits: 8,785</a></li>
+			            </ul>
+			            
+			            <div class="desc">
+			              Donec elit libero, sodales nec, volutpat a, suscipit non, turpis. Donec elit libero, sodales nec, volutpat a, suscipit non, turpis. Donec elit libero, sodales nec, volutpat a, suscipit non, turpis. Donec elit libero, sodales nec, volutpat a, susci
+			            </div>
+              		</div>
+				</article>
+
+				<div class="text-center hidden-print">
+					<ul class="pagination">
+						<li class="disabled">
+							<a href="#" aria-label="Previous">
+								<span aria-hidden="true">&laquo;</span>
+							</a>
+						</li>
+						<li class="active"><a href="#">1</a></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">4</a></li>
+						<li><a href="#">5</a></li>
+						<li>
+							<a href="#" aria-label="Next">
+								<span aria-hidden="true">&raquo;</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</main>
+		</div>
+	</div>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-lg-5 center-sm">
+					<h2><i class="fa fa-html5" aria-hidden="true"></i> Blog demo for &lt;/&gt;DevStudy.net</h2> 
+					<nav>
+						<a class="link" href="news.html">News</a>
+						<a id="search-link" class="link" href="#">Search</a>
+						<a class="link" href="about.html">About</a>
+						<a class="link" href="contacts.html">Contacts</a>
+					</nav>
+					<p class="copywrite">Copywrite &copy; 2016 - &lt;/&gt;DevStudy.net All rights reserved.</p>
+				</div>
+				<div class="col-md-6 col-lg-4">
+					<ul class="contacts">
+						<li><a href="http://devstudy.net"><i class="fa fa-globe" aria-hidden="true"></i> devstudy.net</a></li>
+						<li><a href="https://www.youtube.com/channel/UCI-cdIEY91ideXWs8_ANK6Q"><i class="fa fa-youtube-play" aria-hidden="true"></i> Youtube channel</a></li>
+						<li><a href="mailto:devstudy.net@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i> devstudy.net@gmail.com</a></li>
+					</ul>
+				</div>
+				<div class="col-md-12 col-lg-3 center-sm">
+					<h4>Blog Demo</h4>
+					<p>This is demo for blog layout for &lt;/&gt;DevStudy.net course. More information is here: <a class="link" href="http://devstudy.net/course/web-ishop" target="_blank">devstudy.net</a></p>
+					<div class="social">
+						<a href="https://www.facebook.com/profile.php?id=100011236741156" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+						<a href="https://twitter.com/devstudy_net" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+						<a href="https://plus.google.com/u/0/101660882781649220659/posts" target="_blank"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a>
+						<a href="https://github.com/devstudy-net" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="static/js/jquery.js"></script>
+	<script src="static/js/bootstrap.js"></script>
+	<script src="static/js/app.js"></script>
+</body>
+</html>
